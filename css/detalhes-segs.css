@@ -1,0 +1,103 @@
+* {
+    --cor-texto: #FFFFFF;
+    --cor-neutra: #B5B5B5;
+    --cor-hover: #E8E8E8;
+    --cor-logo: #A91B21;
+    --cor-bg: #1a1a1a;
+    --thumbBG: #424242;
+    --cor-whatsapp: #28A745;
+    font-family: 'Lato', sans-serif;
+}
+
+.content h3 {
+    color: var(--cor-bg);
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.seguros {
+    text-align: center;
+    align-items: center;
+}
+
+.seguros p {
+    color: var(--cor-bg);
+    padding-top: 0.5rem;
+}
+
+.textoT {
+    max-width: 30rem;
+    text-align: center;
+}
+
+.card-img-top {
+    padding-top: 1.5rem;
+    max-width: 4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.list-group-item:hover {
+    transition: 0.6s;
+    background-color: var(--cor-whatsapp);
+    color: var(--cor-texto);
+}
+
+.list-group-item {
+    transition: 0.6s;
+}
+
+
+/*BUTTON TOP*/
+
+.pulse {
+    padding: 1.3rem;
+    margin-top: 1rem;
+}
+
+.navegar {
+    background-image: url("../../assets/family.jpg");
+    background-position: 76%;
+    padding: 3rem;
+}
+
+.rodape {
+    margin-top: 3rem;
+    background-position: bottom;
+}
+
+
+/*Mudando o bg*/
+
+.card-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+@media (max-width: 700px) {
+    .content p {
+        padding: 1rem 3rem;
+    }
+    .card {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .navegar {
+        background-position: 63%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .textoT {
+        margin-left: 30rem;
+    }
+}

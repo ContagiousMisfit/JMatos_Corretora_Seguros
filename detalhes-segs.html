@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/detalhes-segs.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+    <title>Seguros</title>
+
+
+    <!--FAVICON-->
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../icone/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../icone/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../icone/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../icone/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../icone/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../icone/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../icone/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../icone/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icone/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../icone/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icone/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../icone/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icone/favicon-16x16.png">
+    <link rel="manifest" href="../icone/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../icone/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+
+
+    <div class="content">
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+        </div>
+
+        <!--navbar-dark bg-dark-->
+        <nav class="navbar navbar-expand-lg" id="topo2">
+            <button class="navbar-toggler exc" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon">
+                      <img src="../assets/icons/open-menu.png" class="hamburguer">
+                  </span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <!--LOGO-->
+                <img class="logo navbar-brand" src="../assets/logo.png">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Seguros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./assistencia.html">Assistência</a>
+                    </li>
+                    <li class="nav-item">
+                        <div>
+                            <a class="nav-link" id="contato2Topo" style="color: white">Contato</a>
+                        </div>
+                    </li>
+                </ul>
+        </nav>
+
+        <div class="seguros">
+
+            <!--SEARCH-->
+
+            <div class="navegar">
+                <div class="wrapper">
+                    <button type="button" class="pulse" id="goAuto">AUTO</button>
+                </div>
+
+                <div class="wrapper">
+                    <button type="button" class="pulse" id="goVida">VIDA</button>
+                </div>
+
+                <div class="wrapper">
+                    <button type="button" class="pulse" id="goOutros">DEMAIS RAMOS</button>
+                </div>
+            </div>
+
+            <!--SECTION 1-->
+            <div class="seguro-Auto" id="auto">
+
+                <h3>Seguro Auto</h3>
+                <p class="textoT">A cobertura essencial para seu veículo. Até 100% do valor da tabela FIPE de indenização.
+                </p>
+                <div class="card-group">
+                    <div class="card in-down">
+                        <img class="card-img-top" src="../assets/icons/steal.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Roubo ou Furto</h5>
+                            <p class="card-text">
+                                Nossas Seguradoras parceiras disponibilizam um chat de Assistência 24h para lhe fornecer todo o suporte para realização do Boletim de Ocorrência.
+                                <br/>
+                                <br/>Além disso, colocam à disposição peritos para investigar e encontrar seu veículo, que se não for encontrado, será indenizado.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="card in-down">
+                        <img class="card-img-top" src="../assets/icons/crash (1).png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Colisão </h5>
+                            <p class="card-text">Cobertura para você e para terceiros.</p>
+                            <ul class="list-group">
+                                <li class="list-group-item">Choque contra propriedades de Terceiros (Danos Materiais)</li>
+                                <li class="list-group-item">Atropelamento (Danos Corporais)</li>
+                                <li class="list-group-item">Indenização completa em caso de perda total</li>
+                                <li class="list-group-item">Parceria com as melhores oficinas para conserto do seu veículo</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card in-down">
+                        <img class="card-img-top" src="../assets/icons/crash.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Incêndio ou fenômenos da natureza</h5>
+                            <p class="card-text">Não se preocupe com fenômenos naturais. Se enquadrado nas condições, a seguradora pagará o conserto do veículo por quaisquer desses danos.</p>
+                        </div>
+                    </div>
+                    <div class="card in-down">
+                        <img class="card-img-top" src="../assets/icons/extra.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Adicionais</h5>
+                            <p class="card-text">Coberturas facultativas:</p>
+                            <ul class="list-group">
+                                <li class="list-group-item">Carro Reserva</li>
+                                <li class="list-group-item">Danos aos Vidros (Parabrisas, Retrovisores, Faróis e Lanternas)</li>
+                                <li class="list-group-item">Guincho com quilometragem ajustada às suas necessidades</li>
+                                <li class="list-group-item">Garantia de veículo 0km</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--SECTION 2-->
+            <div class="seguro-Vida" id="vida">
+
+                <h3>Seguro de Vida</h3>
+                <p class="textoT">Seja para garantir o conforto da sua família, caso você venha à faltar, ou sua estabilidade financeira, aqui você está seguro.
+                </p>
+                <div class=" card-group ">
+                    <div class="card in-down ">
+                        <img class="card-img-top " src="../assets/icons/death.png" alt="Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Morte</h5>
+
+                            <ul class="list-group">
+                                <li class="list-group-item">Natural</li>
+                                <li class="list-group-item">Acidental</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="card in-down ">
+                        <img class="card-img-top " src="../assets/icons/heartbeat.png " alt="Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Doenças Graves</h5>
+                            <p class="card-text ">Até 30 tipos de doenças cobertas, para diagnóstico e tratamento. Além de:</p>
+
+                            <ul class="list-group">
+
+                                <li class="list-group-item">DMHO (Despesas Médico Hospitalares)</li>
+                                <li class="list-group-item">Indenização por Diárias de Internação</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <div class="card in-down ">
+                        <img class="card-img-top " src="../assets/icons/pill.png " alt="Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Invalidez</h5>
+                            <ul class="list-group">
+
+                                <li class="list-group-item">Permanente Total ou Parcial por Acidente</li>
+                                <li class="list-group-item">Funcional Permanente Total por Doença</li>
+                                <li class="list-group-item">Indenização Especial por Acidente</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card in-down ">
+                        <img class="card-img-top " src="../assets/icons/funeral.png " alt="Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Coberturas Extras</h5>
+
+                            <ul class="list-group">
+
+                                <li class="list-group-item">Segunda Opinião Médica Internacional</li>
+                                <li class="list-group-item">Auxílio Funeral</li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--SECTION 3-->
+            <div class="seguros-Outros" id="outros">
+
+                <h3>Demais ramos</h3>
+
+                <div class=" card-group ">
+                    <div class="card in-down ">
+                        <img class="card-img-top " src="../assets/icons/city.svg " alt="Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Empresarial</h5>
+                            <p class="card-text ">Grande ou pequena, proteja seu patrimônio conosco.
+                                <br/>Desde Coberturas básicas como Incêndio, Queda de Raio, Explosão, Implosão e Fumaça, até soluções personalizadas para seu determinado segmento.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card in-down ">
+                        <img class="card-img-top " src="../assets/icons/marker.png" alt="Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Residencial</h5>
+                            <ul class="list-group">
+
+                                <li class="list-group-item"> Incêndio, Queda de Raio, Explosão, Fumaça e Queda de Aeronaves
+                                </li>
+                                <li class="list-group-item">Danos elétricos</li>
+                                <li class="list-group-item">Roubo e Subtração de bens (com arrombamento)</li>
+                                <li class="list-group-item">Assistência 24h</li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="card in-down ">
+                        <img class="card-img-top " src="../assets/icons/tractor.png " alt="Card image cap ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Agro (Equipamentos Agrícolas)</h5>
+                            <ul class="list-group">
+
+                                <li class="list-group-item">Roubo ou Furto Qualificado</li>
+                                <li class="list-group-item">Danos elétricos</li>
+                                <li class="list-group-item">Responsabilidade Civil</li>
+                                <li class="list-group-item">Operação próxima a água</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card in-down ">
+                        <img class="card-img-top " src="../assets/icons/plus.svg" alt="Card image cap ">
+                        <div class="card-body ">
+
+                            <ul class="list-group">
+
+                                <li class="list-group-item">Auto frota</li>
+                                <li class="list-group-item">Vida em Grupo</li>
+                                <li class="list-group-item">Transporte</li>
+                                <li class="list-group-item">Caminhão / Utilitário Carga</li>
+                                <li class="list-group-item">Responsabilidade Civil</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="navegar rodape">
+            <div class="wrapper">
+                <button type="button" class="pulse" id="voltarTopo2">Voltar ao topo</button>
+            </div>
+        </div>
+
+
+
+</body>
+<footer id="contato2">
+
+    <h1 class="efeito-txt ">Faça um
+        <span class="txt-rotate " data-period="2000 " data-rotate='[ "seguro de VIDA ", "seguro AUTO ", "seguro SAÚDE ", "seguro conosco ", "investimento! " ]'></span>
+    </h1>
+
+    <div class="escritorios ">
+        <p id="frase ">Nossa maior preocupação é evitar a sua. <br>Faça um seguro.</p>
+        <h5><strong>Visite-nos</strong></h5>
+
+        <p>
+            <img src="../assets/icons/localization.png " class="icon " alt="Ícone de Localização ">
+            <strong>Conceição dos Ouros</strong>
+            <br/>(35) 3653-1001 | 3653-2124
+            <br/>Praça José Maria de Sousa, nº9, andar 1. Centro.
+        </p>
+        <p>
+            <img src="../assets/icons/localization.png " class="icon " alt="Ícone de Localização ">
+            <strong>Monsenhor Paulo</strong>
+            <br/>(35) 3263-1415
+            <br/>Rua Dom Hugo, nº 185. Centro.
+        </p>
+        <p>
+            <img src="../assets/icons/localization.png " class="icon " alt="Ícone de Localização ">
+            <strong>Itanhandu</strong>
+            <br/>(35) 3361-2365
+            <br/>Av. Professor Brito, nº 260, 1º andar. Centro.
+        </p>
+    </div>
+    <div class="wrapper">
+        <a href="https://api.whatsapp.com/send?phone=5535998028615&text=Ol%C3%A1%2C%20Joaquim!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20de%20seguro%20.......!%20Meu%20nome%20%C3%A9%20........ " target="_blank " class="btn btn-success
+                    "><img class="wpp " src="../assets/icons/whatsapp.png ">Whatsapp</a>
+    </div>
+
+</footer>
+
+</html>
